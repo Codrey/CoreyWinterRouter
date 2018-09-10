@@ -1,6 +1,25 @@
 import styled, {css} from 'styled-components';
 import media from './media';
 
+import {Gold} from "../views/variables.js";
+
+
+
+
+
+
+export const Background = styled.div`
+    /* position: fixed; */
+    /* left: 10vw;
+    width: 80vw;
+    top: 10vh; */
+    height: auto;
+    background-image: url('${require('../assets/cwwLogo.svg')}');
+    background-color: ${Gold};
+    /* z-index: -99; */
+`;
+
+
 export const Div = styled.div`
   ${({ marginBottom }) => marginBottom && css`
     margin-bottom: ${marginBottom};
@@ -39,6 +58,7 @@ export const Container = styled(Div)`
 
 `;
 
+
 export const Para = styled.p`
     position: relative;    
     top: 0;
@@ -47,6 +67,7 @@ export const Para = styled.p`
     height: 100%;
     background-color: pink;
 `;
+
 
 export const Button = styled.div`
   

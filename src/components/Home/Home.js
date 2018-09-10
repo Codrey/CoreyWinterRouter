@@ -1,7 +1,8 @@
 import React from "react";
-import {
-  Container,
-  Para
+
+import { 
+  Container, 
+  Para 
 } from '../../views/App.style';
 
 
@@ -13,7 +14,6 @@ import {
 // import WhenInView from '../../components/WhenInView/WhenInView';
 
 import Fade from 'react-reveal/Zoom';
-
 import Bounce from 'react-reveal/Zoom';
 import Zoom from 'react-reveal/Zoom';
 
