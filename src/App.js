@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import {Div, Background} from "./views/App.style.js";
+import { Background } from "./views/App.style";
+import { Div } from "./views/grid";
 
 import Home from "./components/Home/Home";
 import About from "./components/About/About";

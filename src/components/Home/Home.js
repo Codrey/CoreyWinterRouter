@@ -1,9 +1,12 @@
 import React from "react";
 
 import { 
-  Container, 
   Para 
 } from '../../views/App.style';
+
+import { 
+  Container 
+} from '../../views/grid';
 
 
 import {

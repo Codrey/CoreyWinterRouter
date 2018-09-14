@@ -18,20 +18,25 @@ export const A = styled.a`
         height: 10%;
         width: 100%;
         background-color: ${Green};
-        border-radius: 5px 5px 0 0;
         z-index: -1;
-        transition: height .1s, background-color .1s;
+        transition: height .5s, background-color .5s;
     }
 
     &:hover {
+
+        content: 'TEST';
+
         color: ${Blue} ;
-        transition: font-size .3s, color .1s;
         font-size: 1.1ch;
+        border-style: dashed;
+        border-radius: 15px;
+        padding: .5ch;
+        transition: font-size .5s, color .5s;
     }
 
     &:hover:after {
-        content: '•••';
-        height: 30%;
+        content: ' ';
+        height: 60%;
         background-color: ${Pink};
     }
 `;
